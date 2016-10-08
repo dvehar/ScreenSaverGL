@@ -6,9 +6,9 @@
 //  Copyright (c) 2016 Desmond Vehar. All rights reserved.
 //
 
-#import "ScreenSaverGLView.h"
+#import "DesmondHaleyVehar_ScreenSaverGL_ScreenSaverGLView.h"
 
-@implementation ScreenSaverGLView
+@implementation DesmondHaleyVehar_ScreenSaverGL_ScreenSaverGLView
 
 - (void)dealloc
 {

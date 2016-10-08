@@ -10,9 +10,9 @@
 #import <OpenGL/gl.h>
 #import <OpenGL/glu.h>
 
-#import "MyOpenGLView.h"
+#import "DesmondHaleyVehar_ScreenSaverGL_MyOpenGLView.h"
 
-@interface ScreenSaverGLView : ScreenSaverView
+@interface DesmondHaleyVehar_ScreenSaverGL_ScreenSaverGLView : ScreenSaverView
 {
     MyOpenGLView *glView;
     GLfloat rotation;

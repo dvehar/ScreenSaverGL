@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 
-#import "./MyOpenGLView.h"
+#import "./DesmondHaleyVehar_ScreenSaverGL_MyOpenGLView.h"
 
 @implementation MyOpenGLView
 
