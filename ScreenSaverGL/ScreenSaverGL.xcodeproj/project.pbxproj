@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F49CC941DA88FD0005D918E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F49CC931DA88FD0005D918E /* OpenGL.framework */; };
+		5F49CC961DA8995A005D918E /* MyOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F49CC951DA8995A005D918E /* MyOpenGLView.m */; };
+		5F6487401DA88CCD0040FBB9 /* ScreenSaverGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F64873F1DA88CCD0040FBB9 /* ScreenSaverGLView.h */; };
+		5F6487421DA88CCD0040FBB9 /* ScreenSaverGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6487411DA88CCD0040FBB9 /* ScreenSaverGLView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F49CC931DA88FD0005D918E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = ../../../../../System/Library/Frameworks/OpenGL.framework; sourceTree = "<group>"; };
+		5F49CC951DA8995A005D918E /* MyOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOpenGLView.m; sourceTree = "<group>"; };
+		5F49CC971DA8999A005D918E /* MyOpenGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyOpenGLView.h; sourceTree = "<group>"; };
+		5F64873A1DA88CCD0040FBB9 /* ScreenSaverGL.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenSaverGL.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F64873E1DA88CCD0040FBB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F64873F1DA88CCD0040FBB9 /* ScreenSaverGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScreenSaverGLView.h; sourceTree = "<group>"; };
+		5F6487411DA88CCD0040FBB9 /* ScreenSaverGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenSaverGLView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F6487361DA88CCD0040FBB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F49CC941DA88FD0005D918E /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F6487301DA88CCD0040FBB9 = {
+			isa = PBXGroup;
+			children = (
+				5F49CC931DA88FD0005D918E /* OpenGL.framework */,
+				5F64873C1DA88CCD0040FBB9 /* ScreenSaverGL */,
+				5F64873B1DA88CCD0040FBB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F64873B1DA88CCD0040FBB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F64873A1DA88CCD0040FBB9 /* ScreenSaverGL.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F64873C1DA88CCD0040FBB9 /* ScreenSaverGL */ = {
+			isa = PBXGroup;
+			children = (
+				5F49CC971DA8999A005D918E /* MyOpenGLView.h */,
+				5F49CC951DA8995A005D918E /* MyOpenGLView.m */,
+				5F64873F1DA88CCD0040FBB9 /* ScreenSaverGLView.h */,
+				5F6487411DA88CCD0040FBB9 /* ScreenSaverGLView.m */,
+				5F64873D1DA88CCD0040FBB9 /* Supporting Files */,
+			);
+			path = ScreenSaverGL;
+			sourceTree = "<group>";
+		};
+		5F64873D1DA88CCD0040FBB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F64873E1DA88CCD0040FBB9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5F6487371DA88CCD0040FBB9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6487401DA88CCD0040FBB9 /* ScreenSaverGLView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5F6487391DA88CCD0040FBB9 /* ScreenSaverGL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F6487451DA88CCD0040FBB9 /* Build configuration list for PBXNativeTarget "ScreenSaverGL" */;
+			buildPhases = (
+				5F6487351DA88CCD0040FBB9 /* Sources */,
+				5F6487361DA88CCD0040FBB9 /* Frameworks */,
+				5F6487371DA88CCD0040FBB9 /* Headers */,
+				5F6487381DA88CCD0040FBB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenSaverGL;
+			productName = ScreenSaverGL;
+			productReference = 5F64873A1DA88CCD0040FBB9 /* ScreenSaverGL.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F6487311DA88CCD0040FBB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Desmond Vehar";
+				TargetAttributes = {
+					5F6487391DA88CCD0040FBB9 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 5F6487341DA88CCD0040FBB9 /* Build configuration list for PBXProject "ScreenSaverGL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5F6487301DA88CCD0040FBB9;
+			productRefGroup = 5F64873B1DA88CCD0040FBB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F6487391DA88CCD0040FBB9 /* ScreenSaverGL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F6487381DA88CCD0040FBB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F6487351DA88CCD0040FBB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6487421DA88CCD0040FBB9 /* ScreenSaverGLView.m in Sources */,
+				5F49CC961DA8995A005D918E /* MyOpenGLView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5F6487431DA88CCD0040FBB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5F6487441DA88CCD0040FBB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5F6487461DA88CCD0040FBB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ScreenSaverGL/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		5F6487471DA88CCD0040FBB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ScreenSaverGL/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F6487341DA88CCD0040FBB9 /* Build configuration list for PBXProject "ScreenSaverGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6487431DA88CCD0040FBB9 /* Debug */,
+				5F6487441DA88CCD0040FBB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F6487451DA88CCD0040FBB9 /* Build configuration list for PBXNativeTarget "ScreenSaverGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6487461DA88CCD0040FBB9 /* Debug */,
+				5F6487471DA88CCD0040FBB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F6487311DA88CCD0040FBB9 /* Project object */;
+}
