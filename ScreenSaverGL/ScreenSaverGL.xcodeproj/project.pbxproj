@@ -8,19 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		5F49CC941DA88FD0005D918E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F49CC931DA88FD0005D918E /* OpenGL.framework */; };
-		5F49CC961DA8995A005D918E /* MyOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F49CC951DA8995A005D918E /* MyOpenGLView.m */; };
-		5F6487401DA88CCD0040FBB9 /* ScreenSaverGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F64873F1DA88CCD0040FBB9 /* ScreenSaverGLView.h */; };
-		5F6487421DA88CCD0040FBB9 /* ScreenSaverGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6487411DA88CCD0040FBB9 /* ScreenSaverGLView.m */; };
+		5F49CC961DA8995A005D918E /* DesmondHaleyVehar_ScreenSaverGL_MyOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F49CC951DA8995A005D918E /* DesmondHaleyVehar_ScreenSaverGL_MyOpenGLView.m */; };
+		5F6487401DA88CCD0040FBB9 /* DesmondHaleyVehar_ScreenSaverGL_ScreenSaverGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F64873F1DA88CCD0040FBB9 /* DesmondHaleyVehar_ScreenSaverGL_ScreenSaverGLView.h */; };
+		5F6487421DA88CCD0040FBB9 /* DesmondHaleyVehar_ScreenSaverGL_ScreenSaverGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6487411DA88CCD0040FBB9 /* DesmondHaleyVehar_ScreenSaverGL_ScreenSaverGLView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5F49CC931DA88FD0005D918E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = ../../../../../System/Library/Frameworks/OpenGL.framework; sourceTree = "<group>"; };
-		5F49CC951DA8995A005D918E /* MyOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOpenGLView.m; sourceTree = "<group>"; };
-		5F49CC971DA8999A005D918E /* MyOpenGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyOpenGLView.h; sourceTree = "<group>"; };
+		5F49CC951DA8995A005D918E /* DesmondHaleyVehar_ScreenSaverGL_MyOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesmondHaleyVehar_ScreenSaverGL_MyOpenGLView.m; sourceTree = "<group>"; };
+		5F49CC971DA8999A005D918E /* DesmondHaleyVehar_ScreenSaverGL_MyOpenGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesmondHaleyVehar_ScreenSaverGL_MyOpenGLView.h; sourceTree = "<group>"; };
 		5F64873A1DA88CCD0040FBB9 /* ScreenSaverGL.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenSaverGL.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F64873E1DA88CCD0040FBB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5F64873F1DA88CCD0040FBB9 /* ScreenSaverGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScreenSaverGLView.h; sourceTree = "<group>"; };
-		5F6487411DA88CCD0040FBB9 /* ScreenSaverGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenSaverGLView.m; sourceTree = "<group>"; };
+		5F64873F1DA88CCD0040FBB9 /* DesmondHaleyVehar_ScreenSaverGL_ScreenSaverGLView.h */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.c.h; path = DesmondHaleyVehar_ScreenSaverGL_ScreenSaverGLView.h; sourceTree = "<group>"; };
+		5F6487411DA88CCD0040FBB9 /* DesmondHaleyVehar_ScreenSaverGL_ScreenSaverGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesmondHaleyVehar_ScreenSaverGL_ScreenSaverGLView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +55,10 @@
 		5F64873C1DA88CCD0040FBB9 /* ScreenSaverGL */ = {
 			isa = PBXGroup;
 			children = (
-				5F49CC971DA8999A005D918E /* MyOpenGLView.h */,
-				5F49CC951DA8995A005D918E /* MyOpenGLView.m */,
-				5F64873F1DA88CCD0040FBB9 /* ScreenSaverGLView.h */,
-				5F6487411DA88CCD0040FBB9 /* ScreenSaverGLView.m */,
+				5F49CC971DA8999A005D918E /* DesmondHaleyVehar_ScreenSaverGL_MyOpenGLView.h */,
+				5F49CC951DA8995A005D918E /* DesmondHaleyVehar_ScreenSaverGL_MyOpenGLView.m */,
+				5F64873F1DA88CCD0040FBB9 /* DesmondHaleyVehar_ScreenSaverGL_ScreenSaverGLView.h */,
+				5F6487411DA88CCD0040FBB9 /* DesmondHaleyVehar_ScreenSaverGL_ScreenSaverGLView.m */,
 				5F64873D1DA88CCD0040FBB9 /* Supporting Files */,
 			);
 			path = ScreenSaverGL;
@@ -79,7 +79,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F6487401DA88CCD0040FBB9 /* ScreenSaverGLView.h in Headers */,
+				5F6487401DA88CCD0040FBB9 /* DesmondHaleyVehar_ScreenSaverGL_ScreenSaverGLView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,8 +150,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F6487421DA88CCD0040FBB9 /* ScreenSaverGLView.m in Sources */,
-				5F49CC961DA8995A005D918E /* MyOpenGLView.m in Sources */,
+				5F6487421DA88CCD0040FBB9 /* DesmondHaleyVehar_ScreenSaverGL_ScreenSaverGLView.m in Sources */,
+				5F49CC961DA8995A005D918E /* DesmondHaleyVehar_ScreenSaverGL_MyOpenGLView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +239,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/usr/local/include/**",
+				);
 				INFOPLIST_FILE = ScreenSaverGL/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = saver;
 			};
@@ -250,8 +256,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/usr/local/include/**",
+				);
 				INFOPLIST_FILE = ScreenSaverGL/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = saver;
 			};

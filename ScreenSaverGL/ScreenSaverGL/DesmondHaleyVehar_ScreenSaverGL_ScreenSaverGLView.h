@@ -9,6 +9,12 @@
 #import <ScreenSaver/ScreenSaver.h>
 #import <OpenGL/gl.h>
 #import <OpenGL/glu.h>
+#include <ft2build.h>
+#include FT_FREETYPE_H
+
+//#include "/usr/local/Cellar/freetype/2.7/include/freetype2/ft2build.h"
+//#include "/usr/local/Cellar/freetype/2.7/include/freetype2/freetype/freetype.h"
+
 
 #import "DesmondHaleyVehar_ScreenSaverGL_MyOpenGLView.h"
 

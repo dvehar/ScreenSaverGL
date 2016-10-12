@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>12688E62-9545-4D67-9CAE-CDAFD47AF3AC</string>
 	<key>IDESourceControlProjectName</key>
-	<string>ScreenSaverGL</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>A8881C627D9243E617FA89E9799243F9D0D84AB9</key>
 		<string>github.com:dvehar/ScreenSaverGL.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ScreenSaverGL/ScreenSaverGL.xcodeproj</string>
+	<string>ScreenSaverGL/ScreenSaverGL.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>A8881C627D9243E617FA89E9799243F9D0D84AB9</key>
